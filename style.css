@@ -1,0 +1,121 @@
+* { /* Tudo o que colocar dentro do (*) vai aplicar pra tudo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*mudar a fórmula como cálcula as distâncias */
+}
+
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.caixa_imagens{
+    position: relative;
+}
+
+
+.insta_logo {
+    margin-bottom: 20px;
+}
+
+.imagem_celular {
+    width: 450px; /* Largura da imagem em PX que é uma medida (PIXEL) */
+}
+
+.imagem_insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s;
+}
+
+
+.caixa_formulario {
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+input {
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    color: #262626;
+}
+
+button {
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login_facebook {
+    color: #385185;
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: bold; /* Espessura da fonte / bold é negrito */ 
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.login_senha {
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.caixa_cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.paragrafo_cadastro{
+    font-size: 14px;
+}
+
+.link_cadastro{
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.logo_app{
+    width: 150px;
+}
+
+.paragrafo_app{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caixa_app{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
